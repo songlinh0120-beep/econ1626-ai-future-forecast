@@ -252,7 +252,7 @@ label[for="adoptionSlider"] {
   background: #e2e8f0;
   color: #0f172a;
   font-weight: 800;
-  transition: 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .scenario-button:hover {
