@@ -13,6 +13,7 @@ This is a fixed interactive web essay project for ECON1626 Assessment 3.
 - Scenario selector: baseline, upside and downside scenarios
 - AI adoption slider: illustrative productivity, displacement and training indexes
 - Policy decision cards: policy purpose, benefit and trade-off
+These features are designed to make the forecast easier to explore and compare.
 
 ## How to test locally
 
