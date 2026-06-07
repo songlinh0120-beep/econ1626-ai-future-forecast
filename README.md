@@ -1,5 +1,5 @@
 # AI and the Australian Labour Market by 2030
-
+This project presents a forecast-based interactive essay rather than a traditional static report.
 This is a fixed interactive web essay project for ECON1626 Assessment 3.
 
 ## Files
