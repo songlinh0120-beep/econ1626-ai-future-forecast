@@ -23,7 +23,3 @@ Open `index.html` in a browser and test:
 3. Policy cards
 
 If the green JavaScript status box says "loaded successfully", the script file is connected.
-
-## Deployment
-
-The project is deployed through GitHub Pages from the main branch.
