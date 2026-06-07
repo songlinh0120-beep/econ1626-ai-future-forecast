@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI and the Australian Labour Market by 2030</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <div class="nav-title">ECON1626 A3</div>
+      <div class="nav-links">
+        <a href="#thesis">Thesis</a>
+        <a href="#capabilities">Why AI</a>
+        <a href="#channels">Channels</a>
+        <a href="#scenarios">Scenarios</a>
+        <a href="#policy">Policy</a>
+        <a href="#method">Method</a>
+        <a href="#references">References</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">Interactive Web Essay</p>
+      <h1>AI and the Australian Labour Market by 2030</h1>
+      <p class="hero-subtitle">
+        Three possible futures for work, wages, productivity and policy adjustment.
+      </p>
+
+      <div class="hero-cards">
+        <div class="hero-card">
+          <span class="hero-number">3</span>
+          <span class="hero-label">Scenarios</span>
+        </div>
+        <div class="hero-card">
+          <span class="hero-number">2030</span>
+          <span class="hero-label">Forecast horizon</span>
+        </div>
+        <div class="hero-card">
+          <span class="hero-number">AI</span>
+          <span class="hero-label">Labour market change</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="jsStatus" class="js-status">JavaScript status: loading...</div>
+
+    <section id="thesis" class="content-section">
+      <p class="section-label">Section 1</p>
+      <h2>Landing and Thesis</h2>
+
+      <p>
+        By 2030, artificial intelligence is unlikely to create a simple story of mass unemployment in Australia. A more realistic forecast is uneven task disruption. Generative AI and AI agents will reorganise white-collar work, increase pressure on entry-level pathways, and shift some productivity gains toward firms unless policy and workplace institutions deliberately support worker augmentation.
+      </p>
+
+      <p>
+        The key question is therefore not simply whether AI will take jobs. The more important question is whether Australia can use AI as a complement to labour rather than only as a substitute for labour. If firms use AI only to reduce labour costs, then junior workers, administrative roles, customer service workers, legal assistants, analysts and marketing workers may face weaker career pathways. If AI is used to augment workers, then productivity can rise while workers also become more capable.
+      </p>
+
+      <p>
+        This web essay presents three possible futures for the Australian labour market before 2030: a baseline path of uneven adaptation, an upside path of worker augmentation, and a downside path of displacement-heavy adoption. The forecast is conditional rather than deterministic: the same technology can create different outcomes depending on firm strategy, worker training, bargaining power and public policy.
+      </p>
+    </section>
+
+    <section id="capabilities" class="content-section">
+      <p class="section-label">Section 2</p>
+      <h2>Why AI Is Different from Earlier Automation</h2>
+
+      <p>
+        Earlier automation mainly affected routine tasks that followed clear and repeated steps. Examples include bookkeeping, repetitive production, data entry and standard clerical work. Generative AI changes the boundary of exposure because it can perform parts of non-routine cognitive work. It can draft reports, summarise documents, generate code, answer customer questions, create marketing content and assist with basic analysis.
+      </p>
+
+      <p>
+        This does not mean that entire occupations disappear immediately. Jobs are bundles of tasks. An accountant, for example, does not perform one single activity. Some tasks, such as data entry and standard report drafting, are easier to automate. Other tasks, such as client judgement, ethical responsibility, relationship management and strategic advice, remain more dependent on human judgement.
+      </p>
+
+      <p>
+        This distinction matters for Australia because AI exposure is not the same as job loss. A task may be technically automatable but not adopted immediately because of legal, organisational, ethical or quality-control constraints. The impact of AI depends on how firms redesign jobs, how quickly workers adapt, and whether institutions help workers move from exposed tasks toward higher-value complementary tasks.
+      </p>
+    </section>
+
+    <section id="channels" class="content-section">
+      <p class="section-label">Section 3</p>
+      <h2>Economic Channels: From AI Capabilities to Labour-Market Outcomes</h2>
+
+      <p>
+        The first mechanism is task substitution. AI can take over tasks that were previously performed by workers. For example, a firm that once needed ten workers to handle routine customer enquiries may now use five workers plus an AI system. Output may remain the same or even increase, but the saved labour cost may flow mainly to the firm rather than to workers.
+      </p>
+
+      <p>
+        The second mechanism is task augmentation. AI can also make workers more productive rather than replacing them. For less experienced workers, AI can act as a guide by offering suggestions, examples and explanations. In this case, AI can shorten the learning curve and help junior workers perform closer to the level of experienced workers. The key distributional question is whether the productivity gain becomes higher wages, higher profits, lower prices, or more work intensity.
+      </p>
+
+      <p>
+        The third mechanism is entry-level pathway compression. Many careers rely on junior workers learning through routine early tasks such as drafting, summarising, coding simple functions or answering standard client questions. If AI absorbs too many of these tasks, firms may hire fewer entry-level workers while still demanding experienced professionals. This creates a bottleneck: the economy needs skilled workers, but the training pathway into skilled work becomes weaker.
+      </p>
+
+      <p>
+        The fourth mechanism is organisational redesign. AI is not a plug-in technology. Like electricity or computing, it is a general-purpose technology that requires complementary innovation. Firms need new workflows, training systems, management practices and accountability rules. Firms that simply attach AI to old processes may gain only small efficiency improvements, while firms that redesign work around AI may gain more substantial productivity benefits.
+      </p>
+
+      <p>
+        The fifth mechanism is distribution. AI has the institutional form of capital but performs labour-like cognitive tasks. This means that some income previously paid as wages may become returns to capital, software providers and firm owners. Therefore, AI can raise total output while still increasing anxiety about wages, bargaining power and inequality.
+      </p>
+
+      <div class="interactive-box">
+        <h3>Interactive Model: AI Adoption and Labour-Market Pressure</h3>
+        <p class="note">
+          This is a simplified illustrative model. It does not provide an official forecast. It shows the logic of the essay: higher AI adoption may raise productivity, but it may also increase displacement pressure and training needs if adoption is not managed carefully.
+        </p>
+
+        <label for="adoptionSlider">AI adoption rate: <span id="adoptionValue">50</span>%</label>
+        <input type="range" id="adoptionSlider" min="10" max="90" value="50">
+
+        <div class="indicator-grid">
+          <div class="indicator-card">
+            <h4>Productivity Gain Index</h4>
+            <p id="productivityOutput">55</p>
+          </div>
+          <div class="indicator-card">
+            <h4>Displacement Risk Index</h4>
+            <p id="displacementOutput">48</p>
+          </div>
+          <div class="indicator-card">
+            <h4>Training Need Index</h4>
+            <p id="trainingOutput">60</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="scenarios" class="content-section">
+      <p class="section-label">Section 4</p>
+      <h2>Interactive Forecast: Three Scenarios to 2030</h2>
+
+      <p>
+        The future impact of AI will not be determined by technology alone. The following three scenarios use the same underlying AI capabilities but different assumptions about business behaviour, worker adaptation and public policy.
+      </p>
+
+      <div class="scenario-selector">
+        <button type="button" class="scenario-button active" data-scenario="baseline">Baseline</button>
+        <button type="button" class="scenario-button" data-scenario="upside">Upside</button>
+        <button type="button" class="scenario-button" data-scenario="downside">Downside</button>
+      </div>
+
+      <div id="scenarioDisplay" class="scenario-display">
+        <h3>Scenario 1: Baseline - Uneven Adaptation</h3>
+        <p>
+          The baseline scenario is the most likely path. By 2030, most Australian firms use generative AI in some form, especially for writing, customer support, coding assistance, internal search, compliance summaries and marketing content. Adoption is broad but shallow. Many firms treat AI as a productivity add-on rather than as a reason to redesign work.
+        </p>
+        <p>
+          In this future, productivity improves, but not dramatically. AI reduces the time spent on routine cognitive tasks, but firms still face the jagged frontier problem: AI performs well on some tasks and badly on others that require context, tacit knowledge or accountability. Workers spend more time checking, editing and integrating AI outputs.
+        </p>
+        <p>
+          Employment does not collapse. However, junior administrative, customer service, marketing, legal support and analyst roles face pressure. Firms do not necessarily fire large numbers of workers, but they slow hiring, combine roles and expect fewer employees to produce more output.
+        </p>
+      </div>
+
+      <div class="scenario-summary-grid">
+        <div class="summary-card">
+          <h4>Baseline</h4>
+          <p>Moderate productivity gains, uneven adjustment and pressure on junior white-collar roles.</p>
+        </div>
+        <div class="summary-card">
+          <h4>Upside</h4>
+          <p>Worker augmentation, stronger training pathways and broader sharing of productivity gains.</p>
+        </div>
+        <div class="summary-card">
+          <h4>Downside</h4>
+          <p>Cost-cutting adoption, weaker entry-level hiring and larger distributional pressure.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="policy" class="content-section">
+      <p class="section-label">Section 5</p>
+      <h2>Policy Playbook</h2>
+
+      <p>
+        The policy objective should not be to block AI adoption. Slowing productive technology would reduce Australia's long-term growth prospects. The better objective is to shape adoption so that AI increases productivity while preserving worker mobility, training pathways and fair adjustment.
+      </p>
+
+      <p>
+        First, Australia should build task-level labour-market intelligence. A public AI Task Dashboard could combine occupation data, employer surveys, training-provider feedback and worker reports. The aim would be to identify which tasks are exposed to AI, which tasks are likely to be augmented, and which workers need transition support.
+      </p>
+
+      <p>
+        Second, the government should support AI Transition Accounts for workers in high-exposure roles. These accounts could fund short, practical training in AI literacy, verification, data interpretation, communication and domain-specific judgement. The focus should be on realistic transition pathways rather than generic digital skills.
+      </p>
+
+      <p>
+        Third, AI Augmentation Grants should support firms that redesign jobs around complementarity. Funding should be conditional on worker consultation, clear productivity metrics and reporting on employment, wages and work quality. This reduces the risk that public money subsidises simple labour replacement.
+      </p>
+
+      <p>
+        Fourth, workplace AI transparency rules are needed for high-stakes uses. Workers should be informed when AI is used for hiring, firing, scheduling, performance scoring or surveillance. They should also have access to explanation and appeal mechanisms when AI-supported decisions materially affect their work.
+      </p>
+
+      <div class="interactive-box">
+        <h3>Policy Decision Cards</h3>
+        <p class="note">Click each policy option to see its purpose, expected benefit and trade-off.</p>
+
+        <div class="policy-card-grid">
+          <button type="button" class="policy-card active" data-policy="dashboard">AI Task Dashboard</button>
+          <button type="button" class="policy-card" data-policy="accounts">AI Transition Accounts</button>
+          <button type="button" class="policy-card" data-policy="grants">AI Augmentation Grants</button>
+          <button type="button" class="policy-card" data-policy="transparency">Workplace AI Transparency</button>
+        </div>
+
+        <div id="policyDisplay" class="policy-display">
+          <h4>AI Task Dashboard</h4>
+          <p>Purpose: Build task-level labour-market intelligence so policymakers can identify which tasks are exposed, which are augmented, and where transition support is needed.</p>
+          <p>Expected benefit: Better targeting of training funds, clearer evidence for policy design, and earlier warning signals for occupations under pressure.</p>
+          <p>Trade-off: Requires regular data updates and coordination between government, firms, training providers and workers.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="method" class="content-section">
+      <p class="section-label">Section 6</p>
+      <h2>Method, Data and Limitations</h2>
+
+      <p>
+        This report uses scenario analysis because the future impact of AI on work is still uncertain. The baseline, upside and downside scenarios are not exact predictions, but possible pathways based on different choices by firms, workers and government. The analysis is based on task-based automation theory, general-purpose technology theory and early evidence on generative AI in workplaces.
+      </p>
+
+      <p>
+        The interactive elements use simplified assumptions to show possible relationships between AI adoption, productivity and displacement risk. A limitation is that AI capabilities, business adoption and policy responses may change before 2030. AI tools were used to support drafting and web design, but the final argument and interpretation remain my own.
+      </p>
+    </section>
+
+    <section id="conclusion" class="content-section">
+      <p class="section-label">Section 7</p>
+      <h2>Conclusion</h2>
+
+      <p>
+        By 2030, AI will probably not destroy the Australian labour market, but it will change the terms on which workers enter, progress and bargain within it. The main risk is not simply unemployment. It is a labour market where AI raises output while weakening entry-level pathways and shifting gains toward firms.
+      </p>
+
+      <p>
+        Australia's choice is institutional rather than purely technological. The same AI capabilities can support uneven adaptation, broad augmentation or displacement-heavy adoption. A successful labour market will not be the one with the most AI adoption. It will be the one that turns AI adoption into shared productivity, stronger skills and more resilient career pathways.
+      </p>
+    </section>
+
+    <section id="references" class="content-section references-section">
+      <p class="section-label">References</p>
+      <h2>References and Attributions</h2>
+
+      <ul>
+        <li>Acemoglu, D. and Restrepo, P. (2019) 'Automation and New Tasks: How Technology Displaces and Reinstates Labor', <em>Journal of Economic Perspectives</em>, 33(2), pp. 3-30.</li>
+        <li>Acemoglu, D. and Restrepo, P. (2022) 'Tasks, Automation, and the Rise in U.S. Wage Inequality', <em>Econometrica</em>, 90(5), pp. 1973-2016.</li>
+        <li>Brynjolfsson, E., Li, D. and Raymond, L. (2025) 'Generative AI at Work', <em>Quarterly Journal of Economics</em>, 140(2).</li>
+        <li>Dell'Acqua, F. et al. (2023) 'Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of AI on Knowledge Worker Productivity and Quality', Harvard Business School Working Paper.</li>
+        <li>Jobs and Skills Australia (2024) <em>Generative AI Capacity Study: The Potential Impact of Generative AI on the Australian Labour Market</em>. Australian Government.</li>
+        <li>Noy, S. and Zhang, W. (2023) 'Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence', <em>Science</em>, 381(6654), pp. 187-192.</li>
+        <li>Romer, P.M. (1990) 'Endogenous Technological Change', <em>Journal of Political Economy</em>, 98(5), pp. S71-S102.</li>
+      </ul>
+
+      
+  </main>
+
+  <footer class="footer">
+    <p>ECON1626 - Economics of Artificial Intelligence</p>
+    <p>Assessment 3 Interactive Web Essay</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
